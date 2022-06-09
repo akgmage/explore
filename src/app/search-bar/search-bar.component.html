@@ -1,7 +1,9 @@
-<input (input)="term = $any($event).target.value" />
-<!--
-    every single time input eevnt occurs 
-    we are gonna take the value at text input 
-    and use it to update term property on our class
--->
+<form (submit)="onFormSubmit($event)">
+    <input (input)="term = $any($event).target.value" />
+    <!--
+        every single time input eevnt occurs 
+        we are gonna take the value at text input 
+        and use it to update term property on our class
+    -->
+</form>
 
