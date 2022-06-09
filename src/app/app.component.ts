@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'explore';
+
+  onTerm(term: string) {
+    console.log('Term = ', term);
+  }
 }
