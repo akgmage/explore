@@ -14,7 +14,7 @@ export class WikipediaService {
         format: 'json',
         list: 'search',
         utf8: '1',
-        stsearch: term,
+        srsearch: term,
         origin: '*'
       }
     });
