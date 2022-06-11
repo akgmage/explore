@@ -10,7 +10,9 @@
         <tr *ngFor="let page of pages">
             <td> 
                 <a target="_blank" [href]="'https://en.wikipedia.org?curid=' + page.pageid">
-                    {{ page.title }} 
+                    <span class="tag is-primary">
+                        {{ page.title }} 
+                      </span>
                 </a>
             </td>
             <td> {{ page.wordcount }} </td>
